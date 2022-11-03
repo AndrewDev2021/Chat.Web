@@ -8,8 +8,10 @@
     <title>@ViewBag.Title</title>
 </head>
 <body>
+    @await Html.PartialAsync("_NavBarPartial")
    <div>
     @RenderBody()
    </div>
+  @await Html.PartialAsync("_ScriptPartial")
 </body>
 </html>
