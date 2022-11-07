@@ -6,7 +6,7 @@ namespace Chat.Web.Controllers
     {
         [HttpGet] 
         [Route("/")]
-        public IActionResult Index()
+        public IActionResult HomePage()
         {
             return View();
         }
