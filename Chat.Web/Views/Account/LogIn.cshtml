@@ -2,4 +2,31 @@
     ViewData["Title"] = "LogIn Page";
 }
 
-<div>LogIn Page</div>
+<link href="~/css/LoginRegistrationStyle.css" rel="stylesheet"/> 
+
+ <div class="form-body">
+        <div class="row">
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <h3>LogIn Today</h3>
+                        <p>Fill in the data below.</p>
+                        <form class="requires-validation">
+
+                            <div class="col-md-12">
+                               <input class="form-control" type="text" name="name" placeholder="Full Name">
+                            </div>
+
+                            <div class="col-md-12">
+                                <input class="form-control" type="email" name="email" placeholder="E-mail Address" required>
+                            </div>
+
+                            <div class="form-button mt-3">
+                                <button id="submit" type="submit" class="btn btn-primary">Register</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
